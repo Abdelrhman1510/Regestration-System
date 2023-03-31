@@ -1,0 +1,40 @@
+body{
+
+    background-color: #1B2430;;
+}
+
+.card{
+
+    background-color: #51557E;
+}
+.btn-custom{
+
+    background-color: #D6D5A8;
+    border: none;
+    padding: 15px 20px;
+   
+    transition: 0.5s all;
+}
+.btn-custom:hover{
+
+    background-color: #816797;
+}
+h1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+ h1::after{
+    content: '';
+    border: #816797 2px solid;
+    position: absolute;
+    border-left: none;
+    border-right: none;
+    border-top:none ;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: auto;
+    bottom: -10px;}
+   
+

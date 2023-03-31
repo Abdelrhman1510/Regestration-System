@@ -1,0 +1,25 @@
+body{
+
+    background-color: #1B2430;;
+}
+
+.card{
+
+    background-color: #51557E;
+}
+.btn-custom{
+
+    background-color: #D6D5A8;
+    border: none;
+    padding: 10px 15px;
+   
+    transition: 0.5s all;
+}
+.btn-custom:hover{
+
+    background-color: #816797;
+}
+.bg-body-tertiary {
+    background-color: #51557E !important;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 text-white ">
+
+    <div class="card rounded-5 shadow-lg text-center p-5">
+        <h1 class="mb-5">Smart Login System
+        </h1>
+        <label for="Name" class="form-label mb-3 ">Name</label>
+        <input type="email" class="form-control rounded-pill mb-5" id="Name" placeholder="Enter your Name ">
+        <p class="text-danger d-none" id="wrongUserName"> wrong user name</p>
+        <label for="email" class="form-label mb-3 ">Email address</label>
+        <input type="email" class="form-control rounded-pill mb-5" id="email" placeholder="Enter your E-mail">
+        <p  class="text-danger d-none" id="wrongUserEmail"> wrong Email</p>
+        <p id="emailExsist" class="text-danger d-none"> Email is already Exsisted</p>
+        <label for="password" class="form-label mb-3">Password</label>
+        <input type="password" class="form-control rounded-pill mb-5" id="password" placeholder="Enter your  password">
+        <p class="text-danger d-none  " id="wrongUserPassword">Wrong password</p>
+        <p id="approved" class=" d-none text-success">Success</p>
+        <a type="button"  class=" rounded-pill btn-custom mb-3 text-decoration-none text-white" id="signUpBtn">Login</a>
+        <p>You have an account?  <a href="index.html">Signin</a> </p>
+    </div>
+
+
+    </div>
+
+<script src="js/index.js"></script>    
+</body>
+</html>
